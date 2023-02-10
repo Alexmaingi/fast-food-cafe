@@ -1,93 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-
+  <body>
     <!-- header section starts -->
 
     <header>
-        <title>Fast Food Cafe</title>
+      <title>Fast Food Cafe</title>
 
-        <a href="#" class="logo"><i class="fas fa-utensils"></i>fast food cafe.</a>
+      <a href="#" class="logo"
+        ><i class="fas fa-utensils"></i>fast food cafe.</a
+      >
 
-        <nav class="navbar">
-            <a class="active" href="#home">home</a>
-            <a href="#dishes">dishes</a>
-            <a href="#about">about</a>
-            <a href="#menu">menu</a>
-            <a href="#review">review</a>
-            <a href="order.html">order</a>
+      <nav class="navbar">
+        <a class="active" href="#home">home</a>
+        <a href="#dishes">dishes</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#review">review</a>
+        <a href="order.html">order</a>
+      </nav>
 
-        </nav>
-
-        <div class="icons">
-            <i class="fas fa-bars" id="menu-bars"></i>
-        </div>
-
+      <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+      </div>
     </header>
 
     <!-- header section ends-->
 
-
     <!-- home section starts  -->
 
     <section class="home" id="home">
-
-        <div class="swiper-container home-slider">
-
-            <div class="swiper-wrapper wrapper">
-
-                <div class="swiper-slide slide">
-                    <div class="content">
-                        <span>our special dish</span>
-                        <h3>spicy noodles</h3>
-                        <p>Do you like noodles? well we got you with some spicy noodles.</p>
-                        <a href="order.html" class="btn">order now</a>
-                    </div>
-                    <div class="image">
-                        <img src="images/home-img-1.png" alt="">
-                    </div>
-                </div>
-
-                <div class="swiper-slide slide">
-                    <div class="content">
-                        <span>our special dish</span>
-                        <h3>fried chicken</h3>
-                        <p>Try some yammy fried chicken from us and enjoy your self.</p>
-                        <a href="order.html" class="btn">order now</a>
-                    </div>
-                    <div class="image">
-                        <img src="images/home-img-2.png" alt="">
-                    </div>
-                </div>
-
-                <div class="swiper-slide slide">
-                    <div class="content">
-                        <span>our special dish</span>
-                        <h3>hot pizza</h3>
-                        <p>Wanna try something new, well try our hot pizza</p>
-                        <a href="order.html" class="btn">order now</a>
-                    </div>
-                    <div class="image">
-                        <img src="images/home-img-3.png" alt="">
-                    </div>
-                </div>
-
+      <div class="swiper-container home-slider">
+        <div class="swiper-wrapper wrapper">
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special dish</span>
+              <h3>spicy noodles</h3>
+              <p>
+                Do you like noodles? well we got you with some spicy noodles.
+              </p>
+              <a href="order.html" class="btn">order now</a>
             </div>
+            <div class="image">
+              <img src="images/home-img-1.png" alt="" />
+            </div>
+          </div>
 
-            <div class="swiper-pagination"></div>
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special dish</span>
+              <h3>fried chicken</h3>
+              <p>Try some yammy fried chicken from us and enjoy your self.</p>
+              <a href="order.html" class="btn">order now</a>
+            </div>
+            <div class="image">
+              <img src="images/home-img-2.png" alt="" />
+            </div>
+          </div>
 
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>our special dish</span>
+              <h3>hot pizza</h3>
+              <p>Wanna try something new, well try our hot pizza</p>
+              <a href="order.html" class="btn">order now</a>
+            </div>
+            <div class="image">
+              <img src="images/home-img-3.png" alt="" />
+            </div>
+          </div>
         </div>
 
+        <div class="swiper-pagination"></div>
+      </div>
     </section>
 
     <!-- home section ends -->
@@ -95,98 +94,65 @@
     <!-- dishes section starts  -->
 
     <section class="dishes" id="dishes">
+      <h3 class="sub-heading">our dishes</h3>
+      <h1 class="heading">popular dishes</h1>
 
-        <h3 class="sub-heading"> our dishes </h3>
-        <h1 class="heading"> popular dishes </h1>
-
-        <div class="box-container">
-
-            <div class="box">
-                <img src="images/dish-1.png" alt="">
-                <h3>Burger</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <span>$25</span>
-                <a href="order.html" class="btn">Order Now</a>
-            </div>
-
-            <div class="box">
-                <img src="images/dish-2.png" alt="">
-                <h3>Zinger Wigs</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <span>$55</span>
-                <a href="order.html" class="btn">Order Now</a>
-            </div>
-
-            <div class="box">
-                <img src="images/dish-3.png" alt="">
-                <h3>Fried Chicken</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <span>$115</span>
-                <a href="order.html" class="btn">Order Now</a>
-            </div>
-
-            <div class="box">
-                <img src="images/dish-4.png" alt="">
-                <h3>Pizza</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <span>$75</span>
-                <a href="order.html" class="btn">Order Now</a>
-            </div>
-
-            <div class="box">
-                <img src="images/dish-5.png" alt="">
-                <h3>Cream Cake</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <span>$40</span>
-                <a href="order.html" class="btn">Order Now</a>
-            </div>
-
-            <div class="box">
-                <img src="images/dish-6.png" alt="">
-                <h3>Streetwise</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <span>$35</span>
-                <a href="order.html" class="btn">Order Now</a>
-            </div>
-
+      <div class="box-container">
+        <div class="box">
+          <img src="images/dish-1.png" alt="" />
+          <h3>Burger</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$25</span>
+          <a href="order.html" class="btn">Order Now</a>
         </div>
 
+        <div class="box">
+          <img src="images/dish-2.png" alt="" />
+          <h3>Zinger Wigs</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$55</span>
+          <a href="order.html" class="btn">Order Now</a>
+        </div>
+
+        <div class="box">
+          <img src="images/dish-3.png" alt="" />
+          <h3>Fried Chicken</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$115</span>
+          <a href="order.html" class="btn">Order Now</a>
+        </div>
+        <div class="box">
+          <img src="images/dish-4.png" alt="" />
+          <h3>Pizza</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$75</span>
+          <a href="order.html" class="btn">Order Now</a>
+        </div>
+      </div>
     </section>
 
     <!-- dishes section ends -->
@@ -194,38 +160,43 @@
     <!-- about section starts  -->
 
     <section class="about" id="about">
+      <h3 class="sub-heading">about us</h3>
+      <h1 class="heading">why choose us?</h1>
 
-        <h3 class="sub-heading"> about us </h3>
-        <h1 class="heading"> why choose us? </h1>
-
-        <div class="row">
-
-            <div class="image">
-                <img src="images/about-img.png" alt="">
-            </div>
-
-            <div class="content">
-                <h3>best food in the country</h3>
-                <p>This is a wonderful resort you are looking for which offers the best food in the country, we have affordable food which is affodable to every one cleaness is highly mantained in our resort.</p><br>
-                <p>We have frendly workers who will serve you with love and kindness and who offers quick response to orders and even problems that a castomer may expirience.</p>
-                <div class="icons-container">
-                    <div class="icons">
-                        <i class="fas fa-shipping-fast"></i>
-                        <span>free delivery</span>
-                    </div>
-                    <div class="icons">
-                        <i class="fas fa-dollar-sign"></i>
-                        <span>easy payments</span>
-                    </div>
-                    <div class="icons">
-                        <i class="fas fa-headset"></i>
-                        <span>24/7 service</span>
-                    </div>
-                </div>
-            </div>
-
+      <div class="row">
+        <div class="image">
+          <img src="images/about-img.png" alt="" />
         </div>
 
+        <div class="content">
+          <h3>best food in the country</h3>
+          <p>
+            This is a wonderful resort you are looking for which offers the best
+            food in the country, we have affordable food which is affodable to
+            every one cleaness is highly mantained in our resort.
+          </p>
+          <br />
+          <p>
+            We have frendly workers who will serve you with love and kindness
+            and who offers quick response to orders and even problems that a
+            castomer may expirience.
+          </p>
+          <div class="icons-container">
+            <div class="icons">
+              <i class="fas fa-shipping-fast"></i>
+              <span>free delivery</span>
+            </div>
+            <div class="icons">
+              <i class="fas fa-dollar-sign"></i>
+              <span>easy payments</span>
+            </div>
+            <div class="icons">
+              <i class="fas fa-headset"></i>
+              <span>24/7 service</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- about section ends -->
@@ -233,185 +204,162 @@
     <!-- menu section starts  -->
 
     <section class="menu" id="menu">
+      <h3 class="sub-heading">our menu</h3>
+      <h1 class="heading">today's speciality</h1>
 
-        <h3 class="sub-heading"> our menu </h3>
-        <h1 class="heading"> today's speciality </h1>
-
-        <div class="box-container">
-
-            <div class="box">
-                <div class="image">
-                    <img src="images/menu-1.jpg" alt="">
-                </div>
-                <div class="content">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <h3>Pizza</h3>
-                    <p>Try your best test on pizza from fast food cafe.</p>
-                    <a href="order.html" class="btn">Order Now</a>
-                    <span class="price">$75</span>
-                </div>
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="images/menu-1.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
             </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="images/menu-2.jpg" alt="">
-                </div>
-                <div class="content">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <h3>Burger</h3>
-                    <p>Try our crispy fried chicken burger aka Zinger Burger .</p>
-                    <a href="order.html" class="btn">Order Now</a>
-                    <span class="price">$25</span>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="images/menu-3.jpg" alt="">
-                </div>
-                <div class="content">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <h3>Puncakes</h3>
-                    <p>Try our best pancakes for a perfect breakfirst.</p>
-                    <a href="order.html" class="btn">Order Now</a>
-                    <span class="price">$12</span>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="images/menu-4.jpg" alt="">
-                </div>
-                <div class="content">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <h3>Cream Cookie</h3>
-                    <p>Cookies lovers should try these cream cookies.</p>
-                    <a href="order.html" class="btn">Order Now</a>
-                    <span class="price">$15</span>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="images/menu-5.jpg" alt="">
-                </div>
-                <div class="content">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <h3>Cream Cake</h3>
-                    <p>Try a cream cake with a flavor of your choice.</p>
-                    <a href="order.html" class="btn">Order Now</a>
-                    <span class="price">$40</span>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="images/menu-6.jpg" alt="">
-                </div>
-                <div class="content">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <h3>Cup Cake</h3>
-                    <p>Suprice your kids with some cup cakes.</p>
-                    <a href="order.html" class="btn">Order Now</a>
-                    <span class="price">$10</span>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="images/menu-7.jpg" alt="">
-                </div>
-                <div class="content">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <h3>Juice</h3>
-                    <p>Try some juice from us with a flavor of your choice.</p>
-                    <a href="order.html" class="btn">Order Now</a>
-                    <span class="price">$15</span>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="images/menu-8.jpg" alt="">
-                </div>
-                <div class="content">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <h3>Pudin</h3>
-                    <p>Emjoy your pudin from our fresh fruits.</p>
-                    <a href="order.html" class="btn">Order Now</a>
-                    <span class="price">$25</span>
-                </div>
-            </div>
-
-            <div class="box">
-                <div class="image">
-                    <img src="images/menu-9.jpg" alt="">
-                </div>
-                <div class="content">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    <h3>Blended Juice</h3>
-                    <p>Enjoy blended juice of flavor and fruit of your choice from us.</p>
-                    <a href="order.html" class="btn">Order Now</a>
-                    <span class="price">$20</span>
-                </div>
-            </div>
-
+            <h3>Pizza</h3>
+            <p>Try your best test on pizza from fast food cafe.</p>
+            <a href="order.html" class="btn">Order Now</a>
+            <span class="price">$75</span>
+          </div>
         </div>
 
+        <div class="box">
+          <div class="image">
+            <img src="images/menu-2.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Burger</h3>
+            <p>Try our crispy fried chicken burger aka Zinger Burger .</p>
+            <a href="order.html" class="btn">Order Now</a>
+            <span class="price">$25</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/menu-3.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Puncakes</h3>
+            <p>Try our best pancakes for a perfect breakfirst.</p>
+            <a href="order.html" class="btn">Order Now</a>
+            <span class="price">$12</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/menu-4.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Cream Cookie</h3>
+            <p>Cookies lovers should try these cream cookies.</p>
+            <a href="order.html" class="btn">Order Now</a>
+            <span class="price">$15</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/menu-5.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Cream Cake</h3>
+            <p>Try a cream cake with a flavor of your choice.</p>
+            <a href="order.html" class="btn">Order Now</a>
+            <span class="price">$40</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/menu-6.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Cup Cake</h3>
+            <p>Suprice your kids with some cup cakes.</p>
+            <a href="order.html" class="btn">Order Now</a>
+            <span class="price">$10</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/menu-7.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Juice</h3>
+            <p>Try some juice from us with a flavor of your choice.</p>
+            <a href="order.html" class="btn">Order Now</a>
+            <span class="price">$15</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/menu-8.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Pudin</h3>
+            <p>Emjoy your pudin from our fresh fruits.</p>
+            <a href="order.html" class="btn">Order Now</a>
+            <span class="price">$25</span>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- menu section ends -->
@@ -419,141 +367,162 @@
     <!-- review section starts  -->
 
     <section class="review" id="review">
+      <h3 class="sub-heading">customer's review</h3>
+      <h1 class="heading">what they say</h1>
 
-        <h3 class="sub-heading"> customer's review </h3>
-        <h1 class="heading"> what they say </h1>
-
-        <div class="swiper-container review-slider">
-
-            <div class="swiper-wrapper">
-
-                <div class="swiper-slide slide">
-                    <i class="fas fa-quote-right"></i>
-                    <div class="user">
-                        <img src="images/pic-1.png" alt="">
-                        <div class="user-info">
-                            <h3>James Musyoka</h3>
-                            <div class="stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <p>Wow guys you should try there fried Chicken its the best fried chiken i have even tried.</p>
+      <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/pic-1.png" alt="" />
+              <div class="user-info">
+                <h3>James Musyoka</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
                 </div>
-
-                <div class="swiper-slide slide">
-                    <i class="fas fa-quote-right"></i>
-                    <div class="user">
-                        <img src="images/pic-2.png" alt="">
-                        <div class="user-info">
-                            <h3>Lorens Mbogua</h3>
-                            <div class="stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <p>This is the best burger i have ever taste, guys there fried chicken burger aka zinger burger is wonderful guys you should try it.</p>
-                </div>
-
-                <div class="swiper-slide slide">
-                    <i class="fas fa-quote-right"></i>
-                    <div class="user">
-                        <img src="images/pic-3.png" alt="">
-                        <div class="user-info">
-                            <h3>Alex Mwangi</h3>
-                            <div class="stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <p>I hae never tested a pancake befor but when i test one from fast food cafe it was wonderful guys.</p>
-                </div>
-
-                <div class="swiper-slide slide">
-                    <i class="fas fa-quote-right"></i>
-                    <div class="user">
-                        <img src="images/pic-4.png" alt="">
-                        <div class="user-info">
-                            <h3>Kevin Kinyua</h3>
-                            <div class="stars">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <p>Guys if you have kids or siblings suprise the with cup cakes from fast food cafe they will like it becous they got more flavours.</p>
-                </div>
-
+              </div>
             </div>
+            <p>
+              Wow guys you should try there fried Chicken its the best fried
+              chiken i have even tried.
+            </p>
+          </div>
 
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/pic-2.png" alt="" />
+              <div class="user-info">
+                <h3>Lorens Mbogua</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              This is the best burger i have ever taste, guys there fried
+              chicken burger aka zinger burger is wonderful guys you should try
+              it.
+            </p>
+          </div>
+
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/pic-3.png" alt="" />
+              <div class="user-info">
+                <h3>Alex Mwangi</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              I hae never tested a pancake befor but when i test one from fast
+              food cafe it was wonderful guys.
+            </p>
+          </div>
+
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/pic-4.png" alt="" />
+              <div class="user-info">
+                <h3>Kevin Kinyua</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              Guys if you have kids or siblings suprise the with cup cakes from
+              fast food cafe they will like it becous they got more flavours.
+            </p>
+          </div>
+          <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <div class="user">
+              <img src="images/pic-4.png" alt="" />
+              <div class="user-info">
+                <h3>Kevin Kinyua</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+            <p>
+              Guys if you have kids or siblings suprise the with cup cakes from
+              fast food cafe they will like it becous they got more flavours.
+            </p>
+          </div>
         </div>
-
+      </div>
     </section>
 
     <!-- review section ends -->
 
-
-
     <!-- footer section starts  -->
 
     <section class="footer">
-
-        <div class="box-container">
-
-            <div class="box">
-                <h3>locations</h3>
-                <a href="#">Nairobi</a>
-                <a href="#">Mombasa</a>
-                <a href="#">Nakuru</a>
-                <a href="#">Thika</a>
-                <a href="#">Kisumu</a>
-            </div>
-
-            <div class="box">
-                <h3>quick links</h3>
-                <a href="#home">home</a>
-                <a href="#dishes">dishes</a>
-                <a href="#about">about</a>
-                <a href="#menu">menu</a>
-                <a href="#reivew">reivew</a>
-                <a href="order.html">order</a>
-            </div>
-
-            <div class="box">
-                <h3>contact info</h3>
-                <a href="#">+254704750275</a>
-                <a href="#">+254794240566</a>
-                <a href="#">fastfoodcafe@gmail.com</a>
-                <a href="#">alexismagish61@gmail.com</a>
-                <a href="#">Nairobi Kenya - 470640</a>
-            </div>
-
-            <div class="box">
-                <h3>follow us</h3>
-                <a href="#">facebook</a>
-                <a href="#">twitter</a>
-                <a href="#">instagram</a>
-            </div>
-
+      <div class="box-container">
+        <div class="box">
+          <h3>locations</h3>
+          <a href="#">Nairobi</a>
+          <a href="#">Mombasa</a>
+          <a href="#">Nakuru</a>
+          <a href="#">Thika</a>
+          <a href="#">Kisumu</a>
         </div>
 
-        <div class="credit"> copyright @ 2022 by <span>mr. maingi</span> </div>
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#home">home</a>
+          <a href="#dishes">dishes</a>
+          <a href="#about">about</a>
+          <a href="#menu">menu</a>
+          <a href="#reivew">reivew</a>
+          <a href="order.html">order</a>
+        </div>
 
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="#">+254704750275</a>
+          <a href="#">+254794240566</a>
+          <a href="#">fastfoodcafe@gmail.com</a>
+          <a href="#">alexismagish61@gmail.com</a>
+          <a href="#">Nairobi Kenya - 470640</a>
+        </div>
+
+        <div class="box">
+          <h3>follow us</h3>
+          <a href="#">facebook</a>
+          <a href="#">twitter</a>
+          <a href="#">instagram</a>
+        </div>
+      </div>
+
+      <div class="credit">copyright @ 2022 by <span>mr. maingi</span></div>
     </section>
 
     <!-- footer section ends -->
@@ -561,7 +530,7 @@
     <!-- loader part  -->
 
     <div class="loader-container">
-        <img src="images/loader.gif" alt="">
+      <img src="images/loader.gif" alt="" />
     </div>
 
     <!-- loader part ends -->
@@ -569,7 +538,5 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <script src="js/script.js"></script>
-
-</body>
-
+  </body>
 </html>
